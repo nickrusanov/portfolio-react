@@ -8,7 +8,7 @@ const Header = () => {
 	return (<header className="header">
 		<div className="container">
 			<div className="header__inner">
-				<NavLink to='/' className="header__logo">
+				<NavLink to='/portfolio-react/' className="header__logo">
 					<span className="header__logo--bold">Freelancer</span> portfolio
 				</NavLink>
 
@@ -17,19 +17,19 @@ const Header = () => {
 				<nav className="header__nav">
 					<ul className="header__nav-list">
 						<li className="header__nav-item">
-							<NavLink to='/' className={({ isActive }) => linkClass + (isActive ? linkClassActive : '')}>
+							<NavLink to='/portfolio-react/' className={({ isActive }) => linkClass + (isActive ? linkClassActive : '')}>
 								Projects
 							</NavLink>
 						</li>
 
 						<li className="header__nav-item">
-							<NavLink to='/skills' className={({ isActive }) => linkClass + (isActive ? linkClassActive : '')}>
+							<NavLink to='/portfolio-react/skills' className={({ isActive }) => linkClass + (isActive ? linkClassActive : '')}>
 								Skills
 							</NavLink>
 						</li>
 
 						<li className="header__nav-item">
-							<NavLink to='/contacts' className={({ isActive }) => linkClass + (isActive ? linkClassActive : '')}>
+							<NavLink to='/portfolio-react/contacts' className={({ isActive }) => linkClass + (isActive ? linkClassActive : '')}>
 								Contacts
 							</NavLink>
 						</li>
