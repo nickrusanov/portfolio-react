@@ -1,0 +1,15 @@
+{
+	"short_name": "Portfolio",
+	"name": "Simple portfolio with React JS",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "32x32",
+			"type": "image/x-icon"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#171718",
+	"background_color": "#fff"
+}
