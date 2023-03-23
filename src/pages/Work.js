@@ -14,7 +14,7 @@ const Work = () => {
 						<h1 className="title work-item__title">{projectList[id].title}</h1>
 
 						<picture>
-							<source media="(max-width: 480px)" srcSet={projectList[id].previewImgWebp} type="image/webp" />
+							<source media="(max-width: 480px)" srcSet={'./.' + projectList[id].previewImgWebp} type="image/webp" />
 							<source media="(max-width: 480px)" srcSet={projectList[id].previewImg} />
 							<source srcSet={projectList[id].projectImgWebp} type="image/webp" />
 							<img className="work-item__img" src={projectList[id].projectImg} alt="work" />
